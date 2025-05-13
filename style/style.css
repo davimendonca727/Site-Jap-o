@@ -1,0 +1,211 @@
+/* Fonte geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e40000;
+    padding:20px 50px;
+    color: white;
+position: relative;
+       
+      }
+      
+      h3{
+        color: #d32f2f;
+      }
+
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: #c00000;
+    font-family: 'Sawarabi Mincho', serif;
+    background-position: center;
+}
+
+   
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+}
+
+/* Banner */
+.banner {
+    background-image: url('banner-japao.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-family: 'Sawarabi Mincho', serif;
+    color: white;
+}
+
+/* Conteúdo em colunas */
+main {
+    padding: 40px 20px;
+    
+}
+img main{
+    position: center;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.colunas img {
+    width: 33%;
+    border-radius: 10px;
+}
+
+.texto {
+    width: 100%;
+}
+
+.texto h2 {
+    color: #b71c1c;
+    font-family: 'Sawarabi Mincho', serif;
+    background-position: center;
+}
+
+.botao {
+    background-color: #d32f2f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.botao:hover {
+    background-color: #ff5252;
+}
+
+/* Formulário */
+.formulario {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+.formulario input, .formulario textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.blog ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog ul li {
+    margin: 5px 0;
+}
+
+.redes-sociais a {
+    color: #ff5252;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    width: 80%; /* Diminui o tamanho do carrossel */
+    max-width: 800px; /* Define um tamanho máximo */
+    justify-content: center;
+
+  }
+
+.botao-saiba-mais {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #d32f2f; /* vermelho escuro */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-saiba-mais:hover {
+    background-color: #b71c1c; /* vermelho mais escuro no hover */
+}
+h1{
+    color: #ffffff;
+    background-position: center;
+}
+h1>header{
+    color: #ffffff;
+    background-position: center;
+}
+ 
+ 
+ 
